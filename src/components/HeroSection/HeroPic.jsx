@@ -9,7 +9,7 @@ const HeroPic = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
-      className="relative flex items-center group justify-center w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] mx-auto"
+      className="relative flex items-center group justify-center w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] sm:mt-10 md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] mx-auto"
     >
       {/* Profile Image inside hexagon */}
       <div className="absolute w-full h-full overflow-hidden clip-hexagon sm:left-14 sm:-bottom-10 sm:h-[400px] md:-bottom-4 md:left-14 md:h-[400px]  lg:left-20 lg:-bottom-14 lg:h-[550px]">
