@@ -39,7 +39,7 @@ const HeroText = () => {
       className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center lg:pl-9"
     >
       <h2 className="lg:text-2xl sm:text-xl uppercase text-cyan">
-        Full Stack React Developer
+        Full Stack Developer
       </h2>
       <h1 className="md:text-[2.5rem] lg:text-6xl sm:text-4xl font-bold font-special text-orange">
         Ajel Varghese Mathew
