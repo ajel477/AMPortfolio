@@ -5,21 +5,22 @@ import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandMysql } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { AiOutlinePython } from "react-icons/ai";
-import { SiRedux } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framermotion/variants";
 
 
 const skills = [
   {
-    skill: "HTML",
+    skill: "HTML/CSS",
     icon: FaHtml5,
   },
-  {
-    skill: "CSS",
-    icon: FaCss3Alt,
-  },
+  
   {
     skill: "JavaScript",
     icon: IoLogoJavascript,
@@ -29,21 +30,40 @@ const skills = [
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Node.js",
+    icon: FaNodeJs,
   },
+   {
+    skill: "Express.js",
+    icon: SiExpress,
+  },
+  {
+    skill: "MongoDB",
+    icon: SiMongodb,
+  },
+  
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
   {
+    skill: "Java",
+    icon: FaJava,
+  },
+  {
     skill: "Python",
     icon: AiOutlinePython,
   },
-  {
-    skill: "MySQL",
-    icon: TbBrandMysql,
-  },
+    {
+      skill: "MySQL",
+      icon: TbBrandMysql,
+    },
+    {
+      skill: "Git/GitHub",
+      icon: FaGithub,
+    },
+
+
 ];
 
 const AllSkills = () => {
